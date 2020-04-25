@@ -27,7 +27,7 @@ export const LoginComponent: React.FunctionComponent<Props> = props => {
   const { onLogin, initialLogin } = props;
 
   return (
-    <Card>
+    <Card data-testid='login-component'>
       <CardHeader title="Login" />
       <CardContent>
         <div className={classes.formContainer}>
